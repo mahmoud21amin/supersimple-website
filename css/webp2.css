@@ -1,0 +1,58 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  
+}
+
+th,
+td {
+  border: 1px solid #fffdfd;
+  text-align: left;
+  padding: 8px;
+  font-weight: bold;
+ 
+}
+
+th {
+  background-color: #f2f2f2;
+}
+@keyframes example {
+  from {background-color: rgba(255, 85, 255, 0.785);}
+  to {background-color: rgba(76, 111, 237, 0.719);}
+}
+a{
+  background-color: rgba(187, 143, 232, 0.752);
+  color: white;
+  padding: 5px 10px;
+  display: inline block;
+  border-radius: 8px;
+  text-decoration: none;
+  
+    width: 75px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgba(255, 85, 255, 0.785);
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count:infinite ;
+    animation-fill-mode: both;
+}
+body{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCEfYxmE54OG9rae7Ya_f6qxpJ1c-I-N8VWQ&usqp=CAU);
+}
+img{
+  width: 50px;
+  
+}
+video {
+
+  display: block;
+  
+  margin-left: 500px;
+  
+  margin-right: 500px;
+}
+h1{
+  text-align: center;
+}

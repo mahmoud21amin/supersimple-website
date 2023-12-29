@@ -1,0 +1,35 @@
+@keyframes slidinleft{
+  from{transform: translateX(-300px);}
+  to{transform: translateX(0);}
+}
+
+.g {
+  text-align: center;
+}
+.i {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+table {
+  margin: 0 600px;
+  animation-name: slidinleft;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay:0s ;
+  animation-iteration-count:1 ;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+body{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCEfYxmE54OG9rae7Ya_f6qxpJ1c-I-N8VWQ&usqp=CAU);
+
+  
+}
+
+h3{
+  color: rgb(255, 253, 253);
+  font-weight: bold;
+}
+

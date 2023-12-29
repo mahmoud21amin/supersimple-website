@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/513/292/11/gradient-abstract-hd-4k-wallpaper-preview.jpg);
+  
+}
+
+form {
+  background-color: #a30ecc2b;
+  color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 20px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button{
+  background-color: #ffffffc3;
+  color: #000000;
+  padding: 10px 15px ;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition:transform 0.3s  ;
+  
+}
+button:hover{
+  transform:translateY(-5px)
+  
+}
+
+input[type="submit"]:hover {
+  background-color: #e7f1e7;
+  color: #d7d7d7;
+}
+a{
+  text-decoration: none;
+}
+@keyframes example {
+  from {background-color: rgba(255, 85, 255, 0.785);}
+  to {background-color: rgba(76, 111, 237, 0.719);}
+}
+
+/* The element to apply the animation to */
+div {
+  width: 75px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: rgba(255, 85, 255, 0.785);
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count:infinite ;
+  animation-fill-mode: both;
+}
